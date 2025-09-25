@@ -1,25 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Thype</title>
-    <style>
-        .main-text{
-            width: auto;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <textarea class="main-text"></textarea>
+    <textarea id="editor"></textarea>
   </body>
 </html>
